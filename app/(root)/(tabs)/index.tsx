@@ -1,5 +1,5 @@
 import { Link } from 'expo-router';
-import { Image, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -11,7 +11,7 @@ export default function Index() {
       }}
     >
       
-      <Text className="font-bold text-lg my-10">Hello World</Text>
+      <Text className="font-bold text-3xl my-10 font-rubik">Welcome to ReState</Text>
       <Link className="underline my-2" href="/sign-in">Sign In</Link>
       <Link className="underline my-2" href="/explore">Explore</Link>
       <Link className="underline my-2" href="/profile">Profile</Link>
